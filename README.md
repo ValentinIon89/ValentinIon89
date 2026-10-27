@@ -1,4 +1,4 @@
-![Academic Banner](github-banner.png)
+![Academic Banner](github-banner.png.png)
 
 # Ion Valentin Ciocioc
 
