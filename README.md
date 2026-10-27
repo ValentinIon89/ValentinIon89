@@ -46,7 +46,6 @@ Based in Athens, Greece, I approach research as an ongoing dialogue between esta
 Research exploring grammatical transformation and the relationship between linguistic form, structural change, and continuity.
 
 ### The Δ Architecture of Grammatical Transformation
-
 A formal operatorial framework for representing and classifying grammatical transformations through eight Δ regimes, macrostructural and microstructural analysis, and relational diagnostics.
 
 ---
@@ -61,8 +60,9 @@ Explore my repositories for available code, documentation, and future developmen
 
 [Explore My GitHub Repositories](https://github.com/ValentinIon89?tab=repositories)
 
----
+Published Python Package: [Delta Architecture Linguistics – PyPI](https://pypi.org/project/delta-architecture-linguistics/)---
 
+----
 ## Literary and Interdisciplinary Work
 
 My broader interests include poetry, literary transformation, translation, and the dialogue between classical and modern forms of expression.
