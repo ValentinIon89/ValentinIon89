@@ -28,6 +28,8 @@ I am also interested in literary expression, translation, and the relationship b
 
 ## Research Interests
 
+![Research Interests](research-interests.png)
+
 - Theoretical linguistics and grammatical transformation
 - Morphology and morphosyntax
 - Formal and operatorial representation
@@ -71,8 +73,6 @@ This section will be expanded as additional works and projects become publicly a
 ---
 
 ## Research Profiles and Academic Identifiers
-
-![Research Interests](research-interests.png)
 
 | Platform | Profile |
 |---|---|
