@@ -18,11 +18,11 @@
 
 ## About Me
 
-I am an independent researcher based in Athens, Greece, with interests spanning theoretical linguistics, grammatical transformation, morphology, formal representation, literary studies, and interdisciplinary research.
+My academic interests lie at the intersection of language, literature, philosophy, and formal thought. I am particularly drawn to questions of transformation, structure, identity, and the ways in which meaning emerges, evolves, and persists across different forms of expression.
 
-My research explores how linguistic structures transform, how formal relations can be represented, and how structural continuity may be maintained through grammatical change.
+My work brings together theoretical inquiry, analytical reasoning, and creative exploration, seeking connections between disciplines that are often studied separately.
 
-I am also interested in literary expression, translation, and the relationship between language, form, and meaning.
+Based in Athens, Greece, I approach research as an ongoing dialogue between established knowledge, new perspectives, and the possibilities that emerge when different fields of thought meet.
 
 ---
 
