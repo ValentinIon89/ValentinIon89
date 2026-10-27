@@ -42,7 +42,7 @@ I am also interested in literary expression, translation, and the relationship b
 
 ## Selected Research Works
 
-### The Metamorphosis Formula
+### [The Metamorphosis Formula](https://doi.org/10.4236/ojml.2025.152017)
 
 Research exploring grammatical transformation and the relationship between linguistic form, structural change, and continuity.
 
