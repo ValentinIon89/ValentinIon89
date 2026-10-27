@@ -12,8 +12,7 @@
 [![HAL](https://img.shields.io/badge/HAL-Research%20Archive-blue)](https://cv.hal.science/ion-valentin-ciocioc)
 [![Figshare](https://img.shields.io/badge/Figshare-Research%20Outputs-5566DD)](https://figshare.com/authors/Ion_Valentin_Ciocioc/19547848)
 [![Accredible](https://img.shields.io/badge/Accredible-Professional%20Credentials-2563EB)](https://www.credential.net/profile/ionvalentinciocioc342140/wallet)
-[![PyPI](https://img.shields.io/badge/PyPI-Python_Package-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/delta-architecture-linguistics/)
-
+[![PyPI](https://img.shields.io/badge/PyPI-Python_Packages-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/user/Ciocioc/)
 ---
 
 ## About Me
