@@ -72,6 +72,8 @@ This section will be expanded as additional works and projects become publicly a
 
 ## Research Profiles and Academic Identifiers
 
+![Research Interests](research-interests.png)
+
 | Platform | Profile |
 |---|---|
 | ORCID | [Researcher Identifier](https://orcid.org/0009-0002-5711-5856) |
