@@ -97,10 +97,7 @@ This section will be expanded as additional works and projects become publicly a
 ---
 
 ## Research Philosophy
-
-> A word becomes truly alive only when it can become something else without ceasing to be itself.
-
-**Ion Valentin Ciocioc**
+![Research Philosophy](research-philosophy.png)
 
 ---
 
