@@ -2,8 +2,7 @@
 
 # Ion Valentin Ciocioc
 
-### Independent Researcher | Athens, Greece
-
+### Linguistics, Literature & Interdisciplinary Research | Athens, Greece
 **Theoretical Linguistics · Morphology · Literature · Formal Systems · Computational Research**
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--5711--5856-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0002-5711-5856)
