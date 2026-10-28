@@ -1,5 +1,4 @@
-![Academic Banner](github-banner.png.png)
-
+![Academic Banner](github-banner.png)
 # Ion Valentin Ciocioc
 
 ### Linguistics, Literature & Interdisciplinary Research | Athens, Greece
