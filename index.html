@@ -1,20 +1,342 @@
+
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Academic website of Ciocioc Ion Valentin, independent researcher in linguistics, grammatical transformation, and interdisciplinary research.">
 <title>Ciocioc Ion Valentin | Independent Researcher</title>
 <style>
-:root{--bg:#071421;--panel:#0d2232;--gold:#e5b977;--cream:#f4ead8;--muted:#b2c1cb;--line:#6b604d66}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:Georgia,'Times New Roman',serif;line-height:1.7}a{color:var(--gold)}a:hover{color:#ffe1ab}header{position:relative;border-bottom:1px solid var(--line)}nav{background:#071421ef;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:13px max(5%,calc((100% - 1180px)/2));font-family:Arial,sans-serif;font-size:13px;letter-spacing:.07em}nav .brand{font-family:Georgia,serif;color:var(--cream);font-size:18px;text-decoration:none;letter-spacing:.02em}nav .links{display:flex;flex-wrap:wrap;gap:17px}nav .links a{text-decoration:none;color:#d9d1c3}nav .links a:hover{color:var(--gold)}.hero-image{display:block;width:100%;height:auto}.hero-caption{padding:42px 24px 48px;text-align:center;background:radial-gradient(ellipse at 50% 0%,#1c3c4b 0%,#091a29 65%,#071421 100%)}.eyebrow{font:12px Arial,sans-serif;text-transform:uppercase;letter-spacing:.26em;color:var(--gold)}h1{font-weight:normal;font-size:clamp(35px,5vw,62px);line-height:1.14;margin:10px 0} .subtitle{font-size:clamp(15px,2vw,20px);color:#d9d0be;margin:10px auto;max-width:780px}.actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:26px}.button{display:inline-block;padding:10px 21px;border:1px solid var(--gold);text-decoration:none;color:var(--cream);font:13px Arial,sans-serif;letter-spacing:.04em}.button.primary{background:var(--gold);color:#101c25}.button:hover{background:#f5d5a4;color:#0a1823}.container{max-width:1160px;margin:auto;padding:0 24px}section{padding:62px 0;border-bottom:1px solid var(--line)}h2{font-weight:normal;font-size:clamp(27px,3.3vw,39px);margin:0 0 12px;color:#f6e4c5}h3{font-weight:normal;font-size:24px;color:#f0d5a5;margin:0 0 12px}p{margin:0 0 16px}.lead{font-size:18px;color:#d2d7d7;max-width:900px}.section-intro{color:var(--muted);margin-bottom:25px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.card{border:1px solid var(--line);background:linear-gradient(145deg,#10293a,#0a1b2a);padding:27px;min-height:210px}.card p{color:#c2cbd0}.card .meta{font:11px Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}.card a{font:13px Arial,sans-serif;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:3px}.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}.tag{font:12px Arial,sans-serif;border:1px solid #a98c6266;padding:7px 11px;color:#d7c7aa}.profiles{display:flex;flex-wrap:wrap;gap:12px}.profiles a{border:1px solid var(--line);padding:10px 16px;text-decoration:none;font:13px Arial,sans-serif;color:var(--cream)}.profiles a:hover{border-color:var(--gold)}footer{text-align:center;padding:34px 20px;color:var(--muted);font:12px Arial,sans-serif}footer a{color:var(--gold)}@media(max-width:720px){nav{padding:15px 20px;align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}section{padding:43px 0}.card{padding:22px}.hero-caption{padding:35px 20px}}
+:root {
+  --bg:#071421;
+  --panel:#0d2232;
+  --gold:#e5b977;
+  --cream:#f4ead8;
+  --muted:#b2c1cb;
+  --line:#6b604d66;
+}
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {
+  margin:0;
+  background:var(--bg);
+  color:var(--cream);
+  font-family:Georgia,'Times New Roman',serif;
+  line-height:1.7;
+}
+a {color:var(--gold)}
+a:hover {color:#ffe1ab}
+header {border-bottom:1px solid var(--line)}
+nav {
+  background:#071421ef;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  padding:13px 5%;
+  font:13px Arial,sans-serif;
+  letter-spacing:.07em;
+}
+nav .brand {
+  color:var(--cream);
+  font:18px Georgia,serif;
+  text-decoration:none;
+}
+nav .links {display:flex;flex-wrap:wrap;gap:17px}
+nav .links a {text-decoration:none;color:#d9d1c3}
+nav .links a:hover {color:var(--gold)}
+.hero-image {
+  display:block;
+  width:100%;
+  height:auto;
+}
+.hero-caption {
+  padding:42px 24px 48px;
+  text-align:center;
+  background:radial-gradient(ellipse at 50% 0%,#1c3c4b 0%,#091a29 65%,#071421 100%);
+}
+.eyebrow {
+  font:12px Arial,sans-serif;
+  text-transform:uppercase;
+  letter-spacing:.26em;
+  color:var(--gold);
+}
+h1 {
+  font-weight:normal;
+  font-size:clamp(35px,5vw,62px);
+  line-height:1.14;
+  margin:10px 0;
+}
+.subtitle {
+  font-size:clamp(15px,2vw,20px);
+  color:#d9d0be;
+  margin:10px auto;
+  max-width:780px;
+}
+.actions {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:26px;
+}
+.button {
+  display:inline-block;
+  padding:10px 21px;
+  border:1px solid var(--gold);
+  text-decoration:none;
+  color:var(--cream);
+  font:13px Arial,sans-serif;
+}
+.button.primary {background:var(--gold);color:#101c25}
+.button:hover {background:#f5d5a4;color:#0a1823}
+.container {max-width:1160px;margin:auto;padding:0 24px}
+section {
+  padding:62px 0;
+  border-bottom:1px solid var(--line);
+}
+h2 {
+  font-weight:normal;
+  font-size:clamp(27px,3.3vw,39px);
+  margin:0 0 12px;
+  color:#f6e4c5;
+}
+h3 {
+  font-weight:normal;
+  font-size:24px;
+  color:#f0d5a5;
+  margin:0 0 12px;
+}
+p {margin:0 0 16px}
+.lead {font-size:18px;color:#d2d7d7;max-width:900px}
+.section-intro {color:var(--muted);margin-bottom:25px}
+.grid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:20px;
+}
+.card {
+  border:1px solid var(--line);
+  background:linear-gradient(145deg,#10293a,#0a1b2a);
+  padding:27px;
+  min-height:210px;
+}
+.card p {color:#c2cbd0}
+.card .meta {
+  font:11px Arial,sans-serif;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--gold);
+  margin-bottom:12px;
+}
+.card a {
+  font:13px Arial,sans-serif;
+  text-decoration:none;
+  border-bottom:1px solid var(--gold);
+  padding-bottom:3px;
+}
+.tags {display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+.tag {
+  font:12px Arial,sans-serif;
+  border:1px solid #a98c6266;
+  padding:7px 11px;
+  color:#d7c7aa;
+}
+.profiles {display:flex;flex-wrap:wrap;gap:12px}
+.profiles a {
+  border:1px solid var(--line);
+  padding:10px 16px;
+  text-decoration:none;
+  font:13px Arial,sans-serif;
+  color:var(--cream);
+}
+.profiles a:hover {border-color:var(--gold)}
+footer {
+  text-align:center;
+  padding:34px 20px;
+  color:var(--muted);
+  font:12px Arial,sans-serif;
+}
+@media(max-width:720px) {
+  nav {padding:15px 20px;align-items:flex-start;flex-direction:column}
+  .grid {grid-template-columns:1fr}
+  section {padding:43px 0}
+  .card {padding:22px}
+  .hero-caption {padding:35px 20px}
+}
 </style>
 </head>
 <body>
-<header id="top"><nav><a class="brand" href="#top">Ciocioc Ion Valentin</a><div class="links"><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#literature">Literature</a><a href="#profiles">Profiles</a></div></nav><img class="hero-image" src="github-banner.png" alt="Panoramic composition of classical philosophy, Greek architecture, manuscripts, multilingual writing, geometric and grammatical formulas, and contemporary scientific thought"><div class="hero-caption"><div class="eyebrow">Personal Academic Website</div><h1>Ciocioc Ion Valentin</h1><p class="subtitle">Independent Researcher · Linguistics · Literature · Interdisciplinary Research</p><div class="actions"><a class="button primary" href="#research">Explore Research</a><a class="button" href="https://orcid.org/0009-0002-5711-5856" target="_blank" rel="noopener noreferrer">ORCID Profile</a></div></div></header>
+
+<header id="top">
+  <nav>
+    <a class="brand" href="#top">Ciocioc Ion Valentin</a>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#literature">Literature</a>
+      <a href="#profiles">Profiles</a>
+    </div>
+  </nav>
+
+  <img class="hero-image"
+       src="github-banner.png"
+       alt="Classical philosophy, Greek architecture, manuscripts, multilingual writing and mathematical formulas">
+
+  <div class="hero-caption">
+    <div class="eyebrow">Personal Academic Website</div>
+    <h1>Ciocioc Ion Valentin</h1>
+    <p class="subtitle">
+      Independent Researcher · Linguistics · Literature · Interdisciplinary Research
+    </p>
+    <div class="actions">
+      <a class="button primary" href="#research">Explore Research</a>
+      <a class="button" href="https://orcid.org/0009-0002-5711-5856">ORCID Profile</a>
+    </div>
+  </div>
+</header>
+
 <main class="container">
-<section id="about"><div class="eyebrow">Research &amp; intellectual inquiry</div><h2>About</h2><p class="lead">Ciocioc Ion Valentin is an independent researcher whose work explores grammatical transformation, formal linguistic structures, and interdisciplinary connections between language, mathematical representation, and computation.</p><p>His research interests include morphology, morphosyntax, comparative linguistic analysis, and formal models of linguistic change. His broader intellectual interests extend to literature, poetry, and the dialogue between classical thought and contemporary knowledge.</p><div class="tags"><span class="tag">Theoretical Linguistics</span><span class="tag">Morphology &amp; Morphosyntax</span><span class="tag">Formal Models</span><span class="tag">Comparative Linguistics</span><span class="tag">Computational Approaches</span><span class="tag">Literature</span></div></section>
-<section id="research"><div class="eyebrow">Selected work</div><h2>Research Projects</h2><p class="section-intro">Independent project websites, each dedicated to its own research framework.</p><div class="grid"><article class="card"><div class="meta">Research · 2025</div><h3>The Metamorphosis Formula</h3><p>An interdisciplinary investigation of grammatical transformations and formal representations of linguistic structure.</p><a href="https://thankful-bush-0fee95810.6.azurestaticapps.net/" target="_blank" rel="noopener noreferrer">Visit research website ↗</a></article><article class="card"><div class="meta">Research · Δ Operator</div><h3>The Δ Architecture of Grammatical Transformation</h3><p>A formal research framework examining grammatical transformation through an operatorial architecture and distinct transformation regimes.</p><a href="https://zealous-plant-09d4f0310.5.azurestaticapps.net/" target="_blank" rel="noopener noreferrer">Visit research website ↗</a></article></div></section>
-<section id="publications"><div class="eyebrow">Scholarly output</div><h2>Publications &amp; Materials</h2><div class="grid"><article class="card"><div class="meta">Journal article · 2025</div><h3>The Metamorphosis Formula</h3><p><em>Open Journal of Modern Linguistics</em>, 15(2), 281–319.</p><a href="https://doi.org/10.4236/ojml.2025.152017" target="_blank" rel="noopener noreferrer">Read publication ↗</a></article><article class="card"><div class="meta">Supplementary research</div><h3>The Color Algorithm</h3><p>Supplementary material connected to the investigation of linguistic and formal representation.</p><a href="https://figshare.com/articles/book/The_color_algorithm_/26950309?file=51554873" target="_blank" rel="noopener noreferrer">View on Figshare ↗</a></article><article class="card"><div class="meta">Supplementary research</div><h3>The Formula of Accent / Tone</h3><p>Supplementary material concerning accent and tone within the broader linguistic research.</p><a href="https://figshare.com/articles/thesis/The_formula_of_accent_tone_-_Formula_accentului_tonului_-______/27616269?file=50239620" target="_blank" rel="noopener noreferrer">View on Figshare ↗</a></article><article class="card"><div class="meta">Code &amp; research repositories</div><h3>Computational Research</h3><p>Research-related repositories and computational implementations are available through the public GitHub profile.</p><a href="https://github.com/ValentinIon89" target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a></article></div></section>
-<section id="literature"><div class="eyebrow">Beyond formal research</div><h2>Literature &amp; Poetry</h2><p class="lead">Literary inquiry, poetry, and translation form a complementary dimension of the author's intellectual work, exploring the relationship between language, form, meaning, and cultural continuity.</p><p>Additional literary works and projects may be presented here as they become publicly available.</p></section>
-<section id="profiles"><div class="eyebrow">Academic presence</div><h2>Academic &amp; Research Profiles</h2><p class="section-intro">Selected public profiles and research repositories.</p><div class="profiles"><a href="https://orcid.org/0009-0002-5711-5856" target="_blank" rel="noopener noreferrer">ORCID ↗</a><a href="https://github.com/ValentinIon89" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://zenodo.org/records/15213688" target="_blank" rel="noopener noreferrer">Zenodo ↗</a><a href="https://hal.science/hal-05361806v1" target="_blank" rel="noopener noreferrer">HAL ↗</a><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4938786" target="_blank" rel="noopener noreferrer">SSRN ↗</a><a href="https://www.researchgate.net/publication/392534894_The_Metamorphosis_Formula" target="_blank" rel="noopener noreferrer">ResearchGate ↗</a></div></section>
-</main><footer>© <span id="year"></span> Ciocioc Ion Valentin · Independent Researcher · <a href="#top">Back to top</a></footer><script>document.getElementById('year').textContent=new Date().getFullYear();</script>
-</body></html>
+
+<section id="about">
+  <div class="eyebrow">Research &amp; intellectual inquiry</div>
+  <h2>About</h2>
+  <p class="lead">
+    Ciocioc Ion Valentin is an independent researcher whose work explores
+    grammatical transformation, formal linguistic structures, and
+    interdisciplinary connections between language, mathematical
+    representation, and computation.
+  </p>
+  <p>
+    His research interests include morphology, morphosyntax, comparative
+    linguistic analysis, and formal models of linguistic change. His broader
+    intellectual interests extend to literature, poetry, and the dialogue
+    between classical thought and contemporary knowledge.
+  </p>
+  <div class="tags">
+    <span class="tag">Theoretical Linguistics</span>
+    <span class="tag">Morphology &amp; Morphosyntax</span>
+    <span class="tag">Formal Models</span>
+    <span class="tag">Comparative Linguistics</span>
+    <span class="tag">Computational Approaches</span>
+    <span class="tag">Literature</span>
+  </div>
+</section>
+
+<section id="research">
+  <div class="eyebrow">Selected work</div>
+  <h2>Research Projects</h2>
+  <p class="section-intro">
+    Independent project websites, each dedicated to its own research framework.
+  </p>
+  <div class="grid">
+    <article class="card">
+      <div class="meta">Research · 2025</div>
+      <h3>The Metamorphosis Formula</h3>
+      <p>
+        An interdisciplinary investigation of grammatical transformations
+        and formal representations of linguistic structure.
+      </p>
+      <a href="https://thankful-bush-0fee95810.6.azurestaticapps.net/">
+        Visit research website ↗
+      </a>
+    </article>
+    <article class="card">
+      <div class="meta">Research · Δ Operator</div>
+      <h3>The Δ Architecture of Grammatical Transformation</h3>
+      <p>
+        A formal research framework examining grammatical transformation
+        through an operatorial architecture and distinct transformation regimes.
+      </p>
+      <a href="https://zealous-plant-09d4f0310.5.azurestaticapps.net/">
+        Visit research website ↗
+      </a>
+    </article>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="eyebrow">Scholarly output</div>
+  <h2>Publications &amp; Materials</h2>
+  <div class="grid">
+    <article class="card">
+      <div class="meta">Journal article · 2025</div>
+      <h3>The Metamorphosis Formula</h3>
+      <p><em>Open Journal of Modern Linguistics</em>, 15(2), 281–319.</p>
+      <a href="https://doi.org/10.4236/ojml.2025.152017">
+        Read publication ↗
+      </a>
+    </article>
+
+    <article class="card">
+      <div class="meta">Supplementary research</div>
+      <h3>The Color Algorithm</h3>
+      <p>Supplementary material connected to linguistic and formal representation.</p>
+      <a href="https://figshare.com/articles/book/The_color_algorithm_/26950309?file=51554873">
+        View on Figshare ↗
+      </a>
+    </article>
+
+    <article class="card">
+      <div class="meta">Supplementary research</div>
+      <h3>The Formula of Accent / Tone</h3>
+      <p>Supplementary material concerning accent and tone within linguistic research.</p>
+      <a href="https://figshare.com/articles/thesis/The_formula_of_accent_tone_-_Formula_accentului_tonului_-______/27616269?file=50239620">
+        View on Figshare ↗
+      </a>
+    </article>
+
+    <article class="card">
+      <div class="meta">Code &amp; research repositories</div>
+      <h3>Computational Research</h3>
+      <p>
+        Research-related repositories and computational implementations
+        are available through the public GitHub profile.
+      </p>
+      <a href="https://github.com/ValentinIon89">Explore GitHub ↗</a>
+    </article>
+  </div>
+</section>
+
+<section id="literature">
+  <div class="eyebrow">Beyond formal research</div>
+  <h2>Literature &amp; Poetry</h2>
+  <p class="lead">
+    Literary inquiry, poetry, and translation form a complementary dimension
+    of the author's intellectual work, exploring the relationship between
+    language, form, meaning, and cultural continuity.
+  </p>
+  <p>
+    Additional literary works and projects may be presented here as they
+    become publicly available.
+  </p>
+</section>
+
+<section id="profiles">
+  <div class="eyebrow">Academic presence</div>
+  <h2>Academic &amp; Research Profiles</h2>
+  <p class="section-intro">Selected public profiles and research repositories.</p>
+  <div class="profiles">
+    <a href="https://orcid.org/0009-0002-5711-5856">ORCID ↗</a>
+    <a href="https://github.com/ValentinIon89">GitHub ↗</a>
+    <a href="https://zenodo.org/records/15213688">Zenodo ↗</a>
+    <a href="https://hal.science/hal-05361806v1">HAL ↗</a>
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4938786">SSRN ↗</a>
+    <a href="https://www.researchgate.net/publication/392534894_The_Metamorphosis_Formula">ResearchGate ↗</a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  © <span id="year"></span> Ciocioc Ion Valentin · Independent Researcher ·
+  <a href="#top">Back to top</a>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
